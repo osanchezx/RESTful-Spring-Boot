@@ -1,0 +1,22 @@
+package com.example.demo.versioning;
+
+public class PersonV1 {
+	private String name;
+
+	public PersonV1() {
+	}
+	
+	public PersonV1(String nombre) {
+		this.name = nombre;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+}
